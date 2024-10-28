@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22549633'))
 API_HASH = environ.get('API_HASH', '34d8c9887fe445c1dac2228cbdf9ab48')
-BOT_TOKEN = environ.get('BOT_TOKEN', 'mongodb+srv://TitanXBots:TitanXBots@cluster0.x606y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2057170163').split()]
