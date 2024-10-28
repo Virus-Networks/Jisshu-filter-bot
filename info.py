@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22549633'))
 API_HASH = environ.get('API_HASH', '34d8c9887fe445c1dac2228cbdf9ab48')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+BOT_TOKEN = environ.get('BOT_TOKEN', 'mongodb+srv://TitanXBots:TitanXBots@cluster0.x606y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2057170163').split()]
@@ -38,7 +38,7 @@ auth_channel = environ.get('AUTH_CHANNEL', '-1001402115130')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1001995831309') # If anyone sends a request message to your bot, you will get it in this channel.
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+ooWPsfNSEMdkOWU1') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', False)
