@@ -119,7 +119,7 @@ User - {}"""
 ⭐ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b><a href="https://t.me/Virus_Studios/463">{caption}</a></b>"""
+    FILE_CAPTION = """<b><a href="https://t.me/Virus_Studios/463">{file_caption}</a></b>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
