@@ -35,11 +35,11 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001995831309'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1001995831309'))
 
 # MongoDB 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://V2Premium:j9X2vMS3miNdTTnh@cluster0.ant6zrf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 
 # Files index database url
-FILES_DATABASE = environ.get('FILES_DATABASE', "mongodb+srv://V2Premium:j9X2vMS3miNdTTnh@cluster0.ant6zrf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+FILES_DATABASE = environ.get('FILES_DATABASE', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Wamika')
 
 # Other Channel's
