@@ -76,11 +76,11 @@ YEARS = [f'{i}' for i in range(2025, 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 23)]
 
 # Pictures And Reaction
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/ksPR1CsJ/05-05-2025-wamiqa-gabbi-23931447.jpg https://i.ibb.co/YFSd1SyW/859265-wamiqa-gabbi-4.webp')).split()
+START_IMG = (environ.get('START_IMG', 'https://graph.org/file/da15e837e0f646db7995e-d05922395aba77f28e.jpg https://graph.org/file/da15e837e0f646db7995e-d05922395aba77f28e.jpg https://graph.org/file/44fbcbc0d97bf6533b97b-67858b6758dfbcf83c.jpg https://graph.org/file/54014f5e349cbda42ec1b-49601352ccde613318.jpg https://graph.org/file/ebcb4805c2dc2dca73d44-046b34a131589916de.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/a1b92cadea104e9c33ad8-72794d06310638ed57.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/b172f9c0425a2026ddf3a-6572e6233374b9702f.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 
 
