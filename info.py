@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 PORT = environ.get('PORT', '8080')
 
 # Owners 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5672857559').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2057170163').split()]
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Mr_Virus_Original') # without @ or https://t.me/ 
 USERNAME = environ.get('USERNAME', "Dead_V2_Bot") # ADMIN USERNAME
 
